@@ -8,7 +8,7 @@ import {
   calcMinutesLeft,
   formatCurrency,
   formatDate,
-} from '../../utils/helpers';
+ } from '../../utils/helpers';
 
 function Order() {
   const order = useLoaderData();
