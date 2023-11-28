@@ -8,7 +8,7 @@ export async function getMenu() {
 
   const { data } = await res.json();
   return data;
- }
+}
 
 export async function getOrder(id) {
   const res = await fetch(`${API_URL}/order/${id}`);
